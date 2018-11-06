@@ -44,48 +44,4 @@ public class UserTest {
 		assertEquals(randy.getRoles().size(), 1);
 		assertEquals(randy.getRoles().get(0), role);
 	}
-
-	
-	
-	/*
-	 
-	 	public User(String name, String id) {
-		this.name = name;
-		this.id = id;
-	}
-	
-	public void addRole(Role add_role) throws RandomException {
-		for(Role current_role : roles) {
-			if(current_role.getClass() == add_role.getClass()) {
-				throw new RandomException("This user already has this role.");
-			}
-		}
-		roles.add(add_role);
-	}
-	
-	public String getName() {
-		return name;
-	}
-	
-	public void setName(String name) {
-		this.name = name;
-	}
-	
-	public String getId() {
-		return id;
-	}
-	
-	public void setId(String id) {
-		this.id = id;
-	}
-	
-	public Team getTeamBelongsTo() {
-		return teamBelongsTo;
-	}
-	
-	public List<Role> getRoles() {
-		return roles;
-	}
-	 
-	 */
 }
